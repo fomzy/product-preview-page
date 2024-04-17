@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    width: 50%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+.product-image {
+    width: 100%; /* Reduces the width of the image to 50% of its container */
+    height: 100%; /* Adjusts the height automatically to maintain the aspect ratio */
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.product-description {
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 10px;
+    width: 100%;
+
+}
+.perf-name {
+    word-break: break-word;
+    font-family: "Fraunces" sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1; /* This removes additional line spacing */
+}
+
+.perf {
+    padding-top: -100px; /* Adjust the value as needed */
+    letter-spacing: 6px;
+    color: hsl(213, 11%, 38%);
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: -50px;
+}
+
+.description{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; 
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
+.price h1 {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.strikethrough-text {
+    text-decoration: line-through;
+    color: hsl(213, 11%, 38%);
+}
+
+button{
+    height: 6vh;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-family: Lexend Deca;
+    font-weight: 200;
+    border-radius: 30px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    margin-bottom: -10%;
+    padding: 5px 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
