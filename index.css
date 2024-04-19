@@ -35,14 +35,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 50px 10px;
+    padding: 50px 40px;
     width: 100%;
-
 }
+
 .perf-name {
     word-break: break-word;
     font-family: "Fraunces" sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1; /* This removes additional line spacing */
 }
@@ -58,17 +58,21 @@ body{
 }
 
 .description{
-    font-size: 14px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500; 
+    font-weight: 300; 
     color: hsl(228, 12%, 48%);
     line-height: 1.5;
     word-break: break-word;
 }
 
 .price{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
 }
 
 .price h1 {
@@ -77,13 +81,14 @@ body{
     font-size: 45px;
 }
 
+
 .strikethrough-text {
     text-decoration: line-through;
     color: hsl(213, 11%, 38%);
 }
 
 button{
-    height: 6vh;
+    height: 50px;
     width: 100%;
     border: 2px solid white;
     display: flex;
@@ -91,14 +96,15 @@ button{
     font-size: 12px;
     font-family: Lexend Deca;
     font-weight: 200;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
     margin-bottom: -10%;
-    padding: 5px 5px;
+    padding: 10px 80px;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
 
